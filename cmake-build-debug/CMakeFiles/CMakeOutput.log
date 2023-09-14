@@ -248,3 +248,4674 @@ Parsed CXX implicit link information from above output:
   implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
 
 
+Compiling the OBJC compiler identification source file "CMakeOBJCCompilerId.m" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the OBJC compiler identification source "CMakeOBJCCompilerId.m" produced "CMakeOBJCCompilerId.o"
+
+The OBJC compiler identification is AppleClang, found in "/Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdOBJC/CMakeOBJCCompilerId.o"
+
+Detecting OBJC compiler ABI info compiled with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IywGRL
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9cb07 && [1/2] Building OBJC object CMakeFiles/cmTC_9cb07.dir/CMakeOBJCCompilerABI.m.o
+Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+Target: arm64-apple-darwin22.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeOBJCCompilerABI.m -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v "-fcoverage-compilation-dir=/Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IywGRL" -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_9cb07.dir/CMakeOBJCCompilerABI.m.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_9cb07.dir/CMakeOBJCCompilerABI.m.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IywGRL" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fobjc-runtime=macosx-13.0.0 -fobjc-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_9cb07.dir/CMakeOBJCCompilerABI.m.o -x objective-c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeOBJCCompilerABI.m
+clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.4.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+[2/2] Linking OBJC executable cmTC_9cb07
+Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+Target: arm64-apple-darwin22.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o cmTC_9cb07 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_9cb07.dir/CMakeOBJCCompilerABI.m.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-857.1
+BUILD 23:13:29 May  7 2023
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/
+
+
+
+Parsed OBJC implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed OBJC implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IywGRL]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9cb07 && [1/2] Building OBJC object CMakeFiles/cmTC_9cb07.dir/CMakeOBJCCompilerABI.m.o]
+  ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+  ignore line: [Target: arm64-apple-darwin22.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeOBJCCompilerABI.m -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v "-fcoverage-compilation-dir=/Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IywGRL" -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_9cb07.dir/CMakeOBJCCompilerABI.m.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_9cb07.dir/CMakeOBJCCompilerABI.m.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IywGRL" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fobjc-runtime=macosx-13.0.0 -fobjc-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_9cb07.dir/CMakeOBJCCompilerABI.m.o -x objective-c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.25/Modules/CMakeOBJCCompilerABI.m]
+  ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target arm64-apple-darwin22.4.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking OBJC executable cmTC_9cb07]
+  ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
+  ignore line: [Target: arm64-apple-darwin22.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.0.0 13.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o cmTC_9cb07 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_9cb07.dir/CMakeOBJCCompilerABI.m.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [13.0.0] ==> ignore
+    arg [13.3] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9cb07] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_9cb07.dir/CMakeOBJCCompilerABI.m.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM64 succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TQcJR2
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bd7f3 && [1/2] Building C object CMakeFiles/cmTC_bd7f3.dir/src.c.o
+[2/2] Linking C executable cmTC_bd7f3
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__aarch64__) || defined(_M_ARM64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-eNfbQV
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9a61c && [1/2] Building C object CMakeFiles/cmTC_9a61c.dir/src.c.o
+[2/2] Linking C executable cmTC_9a61c
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_WUNDEF succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2u7MdE
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b244a && [1/2] Building C object CMakeFiles/cmTC_b244a.dir/src.c.o
+[2/2] Linking C executable cmTC_b244a
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_NO_STRICT_ALIASING succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-y5xJ57
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e3efd && [1/2] Building C object CMakeFiles/cmTC_e3efd.dir/src.c.o
+[2/2] Linking C executable cmTC_e3efd
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Otd2q9
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b0f56 && [1/2] Building C object CMakeFiles/cmTC_b0f56.dir/src.c.o
+[2/2] Linking C executable cmTC_b0f56
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_WDOCUMENTATION_UNKNOWN_COMMAND succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rUqCJZ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f2eaf && [1/2] Building C object CMakeFiles/cmTC_f2eaf.dir/src.c.o
+[2/2] Linking C executable cmTC_f2eaf
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_COMMENT_BLOCK_COMMANDS succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sGPeJF
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5be66 && [1/2] Building C object CMakeFiles/cmTC_5be66.dir/src.c.o
+[2/2] Linking C executable cmTC_5be66
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AFn0Js
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e3d7d && [1/2] Building C object CMakeFiles/cmTC_e3d7d.dir/src.c.o
+[2/2] Linking C executable cmTC_e3d7d
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_WUNUSED_LOCAL_TYPEDEFS succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Oq2f9x
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_df5bd && [1/2] Building C object CMakeFiles/cmTC_df5bd.dir/src.c.o
+[2/2] Linking C executable cmTC_df5bd
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_FCOLOR_DIAGNOSTICS succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xK0n7W
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_09167 && [1/2] Building C object CMakeFiles/cmTC_09167.dir/src.c.o
+[2/2] Linking C executable cmTC_09167
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_GCC_ATOMICS succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v4VPXR
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e1739 && [1/2] Building C object CMakeFiles/cmTC_e1739.dir/src.c.o
+[2/2] Linking C executable cmTC_e1739
+
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z);
+        return 0; }
+
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zqlGLw
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5d115 && [1/2] Building C object CMakeFiles/cmTC_5d115.dir/src.c.o
+[2/2] Linking C executable cmTC_5d115
+
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      __attribute__((visibility("default"))) int foo(void);
+      __attribute__((visibility("hidden")))  int bar(void);
+      int foo(void) { return 0; }
+      int bar(void) { return 1; }
+      int main(void) { return 0; }
+
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_WNO_ERROR_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZruMyW
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_019fe && [1/2] Building C object CMakeFiles/cmTC_019fe.dir/src.c.o
+[2/2] Linking C executable cmTC_019fe
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test LINKER_SUPPORTS_WL_UNDEFINED_ERROR succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VyiTAE
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_43e15 && [1/2] Building C object CMakeFiles/cmTC_43e15.dir/src.c.o
+[2/2] Linking C executable cmTC_43e15
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_ARMNEON succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OQ7LC8
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ff84a && [1/2] Building C object CMakeFiles/cmTC_ff84a.dir/src.c.o
+[2/2] Linking C executable cmTC_ff84a
+
+
+Source file was:
+
+        #include <arm_neon.h>
+        void floats_add(float *dest, float *a, float *b, unsigned size) {
+          for (; size >= 4; size -= 4, dest += 4, a += 4, b += 4) {
+            vst1q_f32(dest, vaddq_f32(vld1q_f32(a), vld1q_f32(b)));
+          }
+        }
+        int main(int argc, char *argv[]) {
+          floats_add((float*)0, (float*)0, (float*)0, 0);
+          return 0;
+         }
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QhluMZ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_caac4 && [1/2] Building C object CMakeFiles/cmTC_caac4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_caac4
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jnyGTB
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_37708 && [1/2] Building C object CMakeFiles/cmTC_37708.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_37708
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-L2XcFB
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9cce3 && [1/2] Building C object CMakeFiles/cmTC_9cce3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_9cce3
+
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bY8pgP
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_192be && [1/2] Building C object CMakeFiles/cmTC_192be.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_192be
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3ONFmh
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_02ee4 && [1/2] Building C object CMakeFiles/cmTC_02ee4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_02ee4
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GXfTBt
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c146a && [1/2] Building C object CMakeFiles/cmTC_c146a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c146a
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BEA47e
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bb171 && [1/2] Building C object CMakeFiles/cmTC_bb171.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_bb171
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-G62rie
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a117a && [1/2] Building C object CMakeFiles/cmTC_a117a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a117a
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qKEGBE
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c252b && [1/2] Building C object CMakeFiles/cmTC_c252b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c252b
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CxIESe
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4ac21 && [1/2] Building C object CMakeFiles/cmTC_4ac21.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4ac21
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SLcO5J
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e11be && [1/2] Building C object CMakeFiles/cmTC_e11be.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e11be
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LMdA2y
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_10788 && [1/2] Building C object CMakeFiles/cmTC_10788.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_10788
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t8ZU8o
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5da18 && [1/2] Building C object CMakeFiles/cmTC_5da18.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_5da18
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GmIl0w
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7a0e0 && [1/2] Building C object CMakeFiles/cmTC_7a0e0.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_7a0e0
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GYaT5q
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c816e && [1/2] Building C object CMakeFiles/cmTC_c816e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_c816e
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Uujsmd
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_46036 && [1/2] Building C object CMakeFiles/cmTC_46036.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_46036
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e353Tv
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ad7e5 && [1/2] Building C object CMakeFiles/cmTC_ad7e5.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ad7e5
+
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Y0d6oh
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8549a && [1/2] Building C object CMakeFiles/cmTC_8549a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8549a
+
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZUKOdB
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_dba4c && [1/2] Building C object CMakeFiles/cmTC_dba4c.dir/CheckFunctionExists.c.o
+/Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZUKOdB/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZUKOdB/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_dba4c
+
+
+
+Determining if the abs exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FRngu5
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d49fb && [1/2] Building C object CMakeFiles/cmTC_d49fb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d49fb
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef abs
+  return ((int*)(&abs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the acos exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ik14VK
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_725ad && [1/2] Building C object CMakeFiles/cmTC_725ad.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_725ad
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef acos
+  return ((int*)(&acos))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the acosf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-J2U3xt
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_92e56 && [1/2] Building C object CMakeFiles/cmTC_92e56.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_92e56
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef acosf
+  return ((int*)(&acosf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the alloca exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ak3gp3
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_da2ba && [1/2] Building C object CMakeFiles/cmTC_da2ba.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_da2ba
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the asin exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FDfNuM
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_86f5b && [1/2] Building C object CMakeFiles/cmTC_86f5b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_86f5b
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asin
+  return ((int*)(&asin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the asinf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HMLyy8
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_63d70 && [1/2] Building C object CMakeFiles/cmTC_63d70.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_63d70
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef asinf
+  return ((int*)(&asinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the atan exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZpdCvP
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b9bc9 && [1/2] Building C object CMakeFiles/cmTC_b9bc9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b9bc9
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan
+  return ((int*)(&atan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the atan2 exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-uTCPCm
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d57a3 && [1/2] Building C object CMakeFiles/cmTC_d57a3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d57a3
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan2
+  return ((int*)(&atan2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the atan2f exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1b47xL
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_30d58 && [1/2] Building C object CMakeFiles/cmTC_30d58.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_30d58
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atan2f
+  return ((int*)(&atan2f))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the atanf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5Uiqwv
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_15e99 && [1/2] Building C object CMakeFiles/cmTC_15e99.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_15e99
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atanf
+  return ((int*)(&atanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the atof exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-L16ZyD
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b2305 && [1/2] Building C object CMakeFiles/cmTC_b2305.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b2305
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atof
+  return ((int*)(&atof))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the atoi exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fVfqqn
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_501f4 && [1/2] Building C object CMakeFiles/cmTC_501f4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_501f4
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef atoi
+  return ((int*)(&atoi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the bcopy exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Ok1tF0
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a12d9 && [1/2] Building C object CMakeFiles/cmTC_a12d9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a12d9
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bcopy
+  return ((int*)(&bcopy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the bsearch exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jvhnPl
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9acee && [1/2] Building C object CMakeFiles/cmTC_9acee.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9acee
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef bsearch
+  return ((int*)(&bsearch))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the calloc exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cNewds
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6541e && [1/2] Building C object CMakeFiles/cmTC_6541e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6541e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef calloc
+  return ((int*)(&calloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ceil exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KcwO1z
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c1724 && [1/2] Building C object CMakeFiles/cmTC_c1724.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c1724
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceil
+  return ((int*)(&ceil))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ceilf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IWcoFs
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_93654 && [1/2] Building C object CMakeFiles/cmTC_93654.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_93654
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ceilf
+  return ((int*)(&ceilf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the copysign exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AoeaDD
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_34793 && [1/2] Building C object CMakeFiles/cmTC_34793.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_34793
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef copysign
+  return ((int*)(&copysign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the copysignf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-B9WxPs
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a81ab && [1/2] Building C object CMakeFiles/cmTC_a81ab.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a81ab
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef copysignf
+  return ((int*)(&copysignf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the cos exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TBCCJ3
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_fc33d && [1/2] Building C object CMakeFiles/cmTC_fc33d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fc33d
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cos
+  return ((int*)(&cos))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the cosf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-HxGkTk
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_54d84 && [1/2] Building C object CMakeFiles/cmTC_54d84.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_54d84
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cosf
+  return ((int*)(&cosf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _Exit exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yIsGpZ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_416d3 && [1/2] Building C object CMakeFiles/cmTC_416d3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_416d3
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Exit
+  return ((int*)(&_Exit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the exp exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5Fgqd1
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_eb786 && [1/2] Building C object CMakeFiles/cmTC_eb786.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_eb786
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef exp
+  return ((int*)(&exp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the expf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nfBXD1
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a60b8 && [1/2] Building C object CMakeFiles/cmTC_a60b8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a60b8
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef expf
+  return ((int*)(&expf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fabs exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7exd4I
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1f210 && [1/2] Building C object CMakeFiles/cmTC_1f210.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1f210
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fabs
+  return ((int*)(&fabs))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fabsf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xr5rX8
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_fe035 && [1/2] Building C object CMakeFiles/cmTC_fe035.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fe035
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fabsf
+  return ((int*)(&fabsf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the floor exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2B6RUb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c97a2 && [1/2] Building C object CMakeFiles/cmTC_c97a2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c97a2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floor
+  return ((int*)(&floor))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the floorf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Oh1qdJ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9f09f && [1/2] Building C object CMakeFiles/cmTC_9f09f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9f09f
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef floorf
+  return ((int*)(&floorf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fmod exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pVoVJ4
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_27900 && [1/2] Building C object CMakeFiles/cmTC_27900.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_27900
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmod
+  return ((int*)(&fmod))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fmodf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ufsOrR
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_dd563 && [1/2] Building C object CMakeFiles/cmTC_dd563.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_dd563
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fmodf
+  return ((int*)(&fmodf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the free exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-CBwrk9
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7ee3c && [1/2] Building C object CMakeFiles/cmTC_7ee3c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7ee3c
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef free
+  return ((int*)(&free))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the fseeko exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v06yZj
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7c7ce && [1/2] Building C object CMakeFiles/cmTC_7c7ce.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7c7ce
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fseeko
+  return ((int*)(&fseeko))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getenv exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-bJroKE
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d4dd9 && [1/2] Building C object CMakeFiles/cmTC_d4dd9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d4dd9
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getenv
+  return ((int*)(&getenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the index exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZN0EfQ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c3871 && [1/2] Building C object CMakeFiles/cmTC_c3871.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c3871
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef index
+  return ((int*)(&index))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the log exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-KGwKZ4
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_612ab && [1/2] Building C object CMakeFiles/cmTC_612ab.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_612ab
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log
+  return ((int*)(&log))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the log10 exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cj6NDz
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_74821 && [1/2] Building C object CMakeFiles/cmTC_74821.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_74821
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log10
+  return ((int*)(&log10))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the log10f exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VuxjUe
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_111fe && [1/2] Building C object CMakeFiles/cmTC_111fe.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_111fe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log10f
+  return ((int*)(&log10f))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the logf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UZZMoh
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c41a0 && [1/2] Building C object CMakeFiles/cmTC_c41a0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c41a0
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef logf
+  return ((int*)(&logf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lround exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-G0luPL
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ff382 && [1/2] Building C object CMakeFiles/cmTC_ff382.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ff382
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lround
+  return ((int*)(&lround))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lroundf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oKwZiL
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e6a37 && [1/2] Building C object CMakeFiles/cmTC_e6a37.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e6a37
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lroundf
+  return ((int*)(&lroundf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the malloc exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LN7m4I
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_01bca && [1/2] Building C object CMakeFiles/cmTC_01bca.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_01bca
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc
+  return ((int*)(&malloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memcmp exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lZW9Sj
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5cfbf && [1/2] Building C object CMakeFiles/cmTC_5cfbf.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5cfbf
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcmp
+  return ((int*)(&memcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memcpy exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-QJrUoE
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_edf17 && [1/2] Building C object CMakeFiles/cmTC_edf17.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_edf17
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memmove exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8gzVJE
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9188c && [1/2] Building C object CMakeFiles/cmTC_9188c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_9188c
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memmove
+  return ((int*)(&memmove))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memset exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nA92DZ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ccdca && [1/2] Building C object CMakeFiles/cmTC_ccdca.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ccdca
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset
+  return ((int*)(&memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the modf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jxHc7a
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b1274 && [1/2] Building C object CMakeFiles/cmTC_b1274.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b1274
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef modf
+  return ((int*)(&modf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the modff exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-O7mOKS
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d1299 && [1/2] Building C object CMakeFiles/cmTC_d1299.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d1299
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef modff
+  return ((int*)(&modff))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pow exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-oZs1JB
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6020c && [1/2] Building C object CMakeFiles/cmTC_6020c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6020c
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pow
+  return ((int*)(&pow))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the powf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Pw0y40
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c8fb9 && [1/2] Building C object CMakeFiles/cmTC_c8fb9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c8fb9
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef powf
+  return ((int*)(&powf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the putenv exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LqjctF
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_592a7 && [1/2] Building C object CMakeFiles/cmTC_592a7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_592a7
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef putenv
+  return ((int*)(&putenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the qsort exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-akMQkr
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_963eb && [1/2] Building C object CMakeFiles/cmTC_963eb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_963eb
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef qsort
+  return ((int*)(&qsort))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the realloc exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UM1mSd
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a81e2 && [1/2] Building C object CMakeFiles/cmTC_a81e2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a81e2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realloc
+  return ((int*)(&realloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the rindex exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IKKcfF
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_74eb9 && [1/2] Building C object CMakeFiles/cmTC_74eb9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_74eb9
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef rindex
+  return ((int*)(&rindex))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the round exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-JCwqfT
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_fa085 && [1/2] Building C object CMakeFiles/cmTC_fa085.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fa085
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef round
+  return ((int*)(&round))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the roundf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LrhjRc
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3e671 && [1/2] Building C object CMakeFiles/cmTC_3e671.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3e671
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef roundf
+  return ((int*)(&roundf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the scalbn exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-moI3Oy
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c7789 && [1/2] Building C object CMakeFiles/cmTC_c7789.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c7789
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef scalbn
+  return ((int*)(&scalbn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the scalbnf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wTBeN3
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e4404 && [1/2] Building C object CMakeFiles/cmTC_e4404.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e4404
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef scalbnf
+  return ((int*)(&scalbnf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setenv exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DZg85V
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_84101 && [1/2] Building C object CMakeFiles/cmTC_84101.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_84101
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sin exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-GmWS2j
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c05ee && [1/2] Building C object CMakeFiles/cmTC_c05ee.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c05ee
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sin
+  return ((int*)(&sin))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sinf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3kazdT
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a9e0d && [1/2] Building C object CMakeFiles/cmTC_a9e0d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a9e0d
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sinf
+  return ((int*)(&sinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sqrt exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m8vAmE
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_26683 && [1/2] Building C object CMakeFiles/cmTC_26683.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_26683
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrt
+  return ((int*)(&sqrt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sqrtf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8xxgoZ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5d510 && [1/2] Building C object CMakeFiles/cmTC_5d510.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5d510
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sqrtf
+  return ((int*)(&sqrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sscanf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-SoxYat
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_fe7eb && [1/2] Building C object CMakeFiles/cmTC_fe7eb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fe7eb
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sscanf
+  return ((int*)(&sscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strchr exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9Jdqym
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2bf9c && [1/2] Building C object CMakeFiles/cmTC_2bf9c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2bf9c
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strchr
+  return ((int*)(&strchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcmp exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8wJNfe
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b5ff2 && [1/2] Building C object CMakeFiles/cmTC_b5ff2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b5ff2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmp
+  return ((int*)(&strcmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strlcat exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VIbs3w
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_aada2 && [1/2] Building C object CMakeFiles/cmTC_aada2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_aada2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strlcpy exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-p8427X
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_36533 && [1/2] Building C object CMakeFiles/cmTC_36533.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_36533
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strlen exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j7z7mO
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_bf763 && [1/2] Building C object CMakeFiles/cmTC_bf763.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_bf763
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlen
+  return ((int*)(&strlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncmp exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-FmRnJ9
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2f557 && [1/2] Building C object CMakeFiles/cmTC_2f557.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2f557
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmp
+  return ((int*)(&strncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strnlen exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TLJeyV
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c5d07 && [1/2] Building C object CMakeFiles/cmTC_c5d07.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c5d07
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnlen
+  return ((int*)(&strnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strrchr exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t2Mihb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e74d7 && [1/2] Building C object CMakeFiles/cmTC_e74d7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e74d7
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strrchr
+  return ((int*)(&strrchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strstr exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Bw7wKd
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_0d0c2 && [1/2] Building C object CMakeFiles/cmTC_0d0c2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0d0c2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strstr
+  return ((int*)(&strstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtod exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ROxAVS
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_c05c1 && [1/2] Building C object CMakeFiles/cmTC_c05c1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c05c1
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtod
+  return ((int*)(&strtod))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtok_r exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qa1FCr
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d7f2e && [1/2] Building C object CMakeFiles/cmTC_d7f2e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d7f2e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtol exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-G55KHe
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_dbdfc && [1/2] Building C object CMakeFiles/cmTC_dbdfc.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_dbdfc
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtol
+  return ((int*)(&strtol))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LdLMEB
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ed6a2 && [1/2] Building C object CMakeFiles/cmTC_ed6a2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ed6a2
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoul exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-01VSc2
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_50c73 && [1/2] Building C object CMakeFiles/cmTC_50c73.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_50c73
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoul
+  return ((int*)(&strtoul))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoull exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-nuRYGt
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7e050 && [1/2] Building C object CMakeFiles/cmTC_7e050.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7e050
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoull
+  return ((int*)(&strtoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the tan exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i9aqoZ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f2efa && [1/2] Building C object CMakeFiles/cmTC_f2efa.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f2efa
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tan
+  return ((int*)(&tan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the tanf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XyBVIn
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d869e && [1/2] Building C object CMakeFiles/cmTC_d869e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d869e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef tanf
+  return ((int*)(&tanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the trunc exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kaPEtD
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d909f && [1/2] Building C object CMakeFiles/cmTC_d909f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d909f
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef trunc
+  return ((int*)(&trunc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the truncf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-s1yhET
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_afe28 && [1/2] Building C object CMakeFiles/cmTC_afe28.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_afe28
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef truncf
+  return ((int*)(&truncf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the unsetenv exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g6QSFV
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_6cd84 && [1/2] Building C object CMakeFiles/cmTC_6cd84.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6cd84
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AEvkpl
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_db441 && [1/2] Building C object CMakeFiles/cmTC_db441.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_db441
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vsscanf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9iDRxG
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_f72c9 && [1/2] Building C object CMakeFiles/cmTC_f72c9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f72c9
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsscanf
+  return ((int*)(&vsscanf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcsnlen exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-G8OgiV
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_39e7c && [1/2] Building C object CMakeFiles/cmTC_39e7c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_39e7c
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsnlen
+  return ((int*)(&wcsnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcscmp exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wcbs8d
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2866d && [1/2] Building C object CMakeFiles/cmTC_2866d.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2866d
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscmp
+  return ((int*)(&wcscmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcsdup exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-UGRRPC
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1363c && [1/2] Building C object CMakeFiles/cmTC_1363c.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1363c
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsdup
+  return ((int*)(&wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcslcat exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qAysSI
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d16c5 && [1/2] Building C object CMakeFiles/cmTC_d16c5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d16c5
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcslcpy exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OkQR5z
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e1090 && [1/2] Building C object CMakeFiles/cmTC_e1090.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e1090
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcslen exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cFXnCc
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1f79e && [1/2] Building C object CMakeFiles/cmTC_1f79e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1f79e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslen
+  return ((int*)(&wcslen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcsncmp exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m6RqxR
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3ffdb && [1/2] Building C object CMakeFiles/cmTC_3ffdb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3ffdb
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsncmp
+  return ((int*)(&wcsncmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcsstr exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fv6opr
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d7d1b && [1/2] Building C object CMakeFiles/cmTC_d7d1b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d7d1b
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsstr
+  return ((int*)(&wcsstr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcstol exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5MAHMK
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_b7a0f && [1/2] Building C object CMakeFiles/cmTC_b7a0f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b7a0f
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcstol
+  return ((int*)(&wcstol))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WBiQgE
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_215cd && [1/2] Building C object CMakeFiles/cmTC_215cd.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_215cd
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strcasestr exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BRbGsb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a80cb && [1/2] Building C object CMakeFiles/cmTC_a80cb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a80cb
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasestr
+  return ((int*)(&strcasestr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WLXAzY
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_657a4 && [1/2] Building C object CMakeFiles/cmTC_657a4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_657a4
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcscasecmp exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xPmkHd
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_1f683 && [1/2] Building C object CMakeFiles/cmTC_1f683.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1f683
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcscasecmp
+  return ((int*)(&wcscasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the wcsncasecmp exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-89y5hQ
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2ab21 && [1/2] Building C object CMakeFiles/cmTC_2ab21.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2ab21
+
+
+File CheckSymbolExists.c:
+/* */
+#include <alloca.h>
+#include <ctype.h>
+#include <float.h>
+#include <iconv.h>
+#include <inttypes.h>
+#include <limits.h>
+#include <math.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <strings.h>
+#include <sys/types.h>
+#include <wchar.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcsncasecmp
+  return ((int*)(&wcsncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fgtnHX
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_45707 && [1/2] Building C object CMakeFiles/cmTC_45707.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_45707
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sigaction exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-DGONo0
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5ec69 && [1/2] Building C object CMakeFiles/cmTC_5ec69.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5ec69
+
+
+File CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaction
+  return ((int*)(&sigaction))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setjmp exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lWm3yu
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8fd42 && [1/2] Building C object CMakeFiles/cmTC_8fd42.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8fd42
+
+
+File CheckSymbolExists.c:
+/* */
+#include <setjmp.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setjmp
+  return ((int*)(&setjmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the nanosleep exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IjiyXd
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_45be3 && [1/2] Building C object CMakeFiles/cmTC_45be3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_45be3
+
+
+File CheckSymbolExists.c:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nanosleep
+  return ((int*)(&nanosleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysconf exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kvW2m8
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7b8f6 && [1/2] Building C object CMakeFiles/cmTC_7b8f6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_7b8f6
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysctlbyname exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-OCA2AL
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_af42e && [1/2] Building C object CMakeFiles/cmTC_af42e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_af42e
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the poll exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-RIvRU1
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a4d53 && [1/2] Building C object CMakeFiles/cmTC_a4d53.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a4d53
+
+
+File CheckSymbolExists.c:
+/* */
+#include <poll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef poll
+  return ((int*)(&poll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function iconv_open exists in the iconv passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7983aN
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4f229 && [1/2] Building C object CMakeFiles/cmTC_4f229.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_4f229
+
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-BcflDF
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2ce18 && [1/2] Building C object CMakeFiles/cmTC_2ce18.dir/src.c.o
+[2/2] Linking C executable cmTC_2ce18
+
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+  (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+  return 0;
+}
+
+
+Determining if the dlopen exist passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-9qCYyY
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_a91d8 && [1/2] Building C object CMakeFiles/cmTC_a91d8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a91d8
+
+
+File CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_O_CLOEXEC succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yRaWeb
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4492a && [1/2] Building C object CMakeFiles/cmTC_4492a.dir/src.c.o
+[2/2] Linking C executable cmTC_4492a
+
+
+Source file was:
+
+    #include <fcntl.h>
+    int flag = O_CLOEXEC;
+    int main(int argc, char **argv) { return 0; }
+
+Performing Objective-C SOURCE FILE Test HAVE_FRAMEWORK_GAMECONTROLLER succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jB2Jyp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_38fd7 && [1/2] Building OBJC object CMakeFiles/cmTC_38fd7.dir/src.m.o
+[2/2] Linking OBJC executable cmTC_38fd7
+
+
+Source file was:
+
+          #include <AvailabilityMacros.h>
+          #include <TargetConditionals.h>
+          #import <Foundation/Foundation.h>
+          #import <GameController/GameController.h>
+          #if MAC_OS_X_VERSION_MIN_REQUIRED < 1080
+          #error GameController framework doesn't work on this configuration
+          #endif
+          #if TARGET_CPU_X86
+          #error GameController framework doesn't work on this configuration
+          #endif
+          int main() { return 0; }
+
+Performing Objective-C SOURCE FILE Test HAVE_FRAMEWORK_COREHAPTICS succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-PQVxBh
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3cbe9 && [1/2] Building OBJC object CMakeFiles/cmTC_3cbe9.dir/src.m.o
+[2/2] Linking OBJC executable cmTC_3cbe9
+
+
+Source file was:
+
+          #include <AvailabilityMacros.h>
+          #include <TargetConditionals.h>
+          #import <Foundation/Foundation.h>
+          #import <CoreHaptics/CoreHaptics.h>
+          int main() { return 0; }
+
+Performing Objective-C SOURCE FILE Test HAVE_FRAMEWORK_METAL succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-EqUceo
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_535e0 && [1/2] Building OBJC object CMakeFiles/cmTC_535e0.dir/src.m.o
+[2/2] Linking OBJC executable cmTC_535e0
+
+
+Source file was:
+
+        #include <AvailabilityMacros.h>
+        #import <Metal/Metal.h>
+        #import <QuartzCore/CAMetalLayer.h>
+
+        #if (!TARGET_CPU_X86_64 && !TARGET_CPU_ARM64)
+        #error Metal doesn't work on this configuration
+        #endif
+        int main(int argc, char **argv) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_PTHREADS succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZEWMUA
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_37f20 && [1/2] Building C object CMakeFiles/cmTC_37f20.dir/src.c.o
+[2/2] Linking C executable cmTC_37f20
+
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char** argv) {
+          pthread_attr_t type;
+          pthread_attr_init(&type);
+          return 0;
+        }
+
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lTek4x
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_9485c && [1/2] Building C object CMakeFiles/cmTC_9485c.dir/src.c.o
+[2/2] Linking C executable cmTC_9485c
+
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VXsPSu
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_cfe57 && [1/2] Building C object CMakeFiles/cmTC_cfe57.dir/src.c.o
+[2/2] Linking C executable cmTC_cfe57
+
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-LQd7B1
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_ed765 && [1/2] Building C object CMakeFiles/cmTC_ed765.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ed765
+
+
+
+Performing C SOURCE FILE Test HAVE_PTHREAD_SETNAME_NP succeeded with the following output:
+Change Dir: /Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qKBiG8
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_3b4d9 && [1/2] Building C object CMakeFiles/cmTC_3b4d9.dir/src.c.o
+[2/2] Linking C executable cmTC_3b4d9
+
+
+Source file was:
+
+            #include <pthread.h>
+            int main(int argc, char **argv) {
+              #ifdef __APPLE__
+              pthread_setname_np("");
+              #else
+              pthread_setname_np(pthread_self(),"");
+              #endif
+              return 0;
+            }
+

@@ -1,0 +1,120 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "vendor/SDL",
+					"jsonFile" : "directory-vendor.SDL-Debug-e47c68a38cf7e31f86d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "vendor/SDL",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CasinoLite",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CasinoLite::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CasinoLite-Debug-2846806fcf46ab4d9131.json",
+					"name" : "CasinoLite",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3-static::@8139a08349bd60abf0db",
+					"jsonFile" : "target-SDL3-static-Debug-9f95fe7c6d5e905b0716.json",
+					"name" : "SDL3-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SDL3_test::@8139a08349bd60abf0db",
+					"jsonFile" : "target-SDL3_test-Debug-c7f40beac42f1f9bc016.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@8139a08349bd60abf0db",
+					"jsonFile" : "target-uninstall-Debug-605c1ccb4fd6f01fc38d.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/hunter/Queen's University/CISC 320/CasinoLite/cmake-build-debug",
+		"source" : "/Users/hunter/Queen's University/CISC 320/CasinoLite"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

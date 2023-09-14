@@ -1,5 +1,7 @@
 #pragma once
 
+#include <SDL.h>
+
 #include "Game.hpp"
 
 class Application {
@@ -14,12 +16,12 @@ public:
         return pInstance_s;
     }
 
-    static void SetActiveGame(Game* game) {
-        pActiveGame_s = game;
-    }
+    static const SDL_Window* GetWindow() { return pWindow_s; };
+    static void SetActiveGame(Game* game) { pActiveGame_s = game; }
 
     void Run();
 private:
+    static SDL_Window* pWindow_s;
     static Game* pActiveGame_s;
 private:
     Application();

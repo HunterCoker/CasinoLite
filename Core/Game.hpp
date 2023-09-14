@@ -1,5 +1,7 @@
 #pragma once
 
+#include "Input.hpp"
+
 #include <utility>
 #include <string>
 #include <memory>
