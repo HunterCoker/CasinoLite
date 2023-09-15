@@ -21,12 +21,13 @@ Application::Application() {
         std::cout << "SDL_CreateWindow error: " << SDL_GetError() << std::endl;
         std::exit(-1);
     }
-    Renderer::Init();
     SDL_SetWindowPosition(pWindow_s, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED);
     SDL_ShowWindow(pWindow_s);
 
+    Renderer::Init();
     Games::pMainMenu_g->Init();
     Games::pSlots_g->Init();
+
     pActiveGame_s = Games::pMainMenu_g;
 }
 
@@ -47,7 +48,7 @@ void Application::Run() {
                     Input::SetKeyUp(event.key.keysym.sym);
                     break;
                 default:
-                    // std::cout << "error: unhandled event!\n";
+                    // Unhandled Event
                     break;
             }
         }

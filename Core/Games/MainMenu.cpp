@@ -16,7 +16,8 @@ void MainMenu::Update() {
         return;
     }
 
-    Renderer::ClearColor({1.0f, 0.0f, 1.0f, 1.0f});
+    double r = (glm::sin((float)SDL_GetTicks() / 1000.0f) + 1.0f) / 2.0f;
+    Renderer::ClearColor({ r, 0.0f, 1.0f, 1.0f });
     Renderer::Flush();
 }
 

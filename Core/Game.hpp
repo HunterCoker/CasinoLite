@@ -4,7 +4,6 @@
 
 #include <utility>
 #include <string>
-#include <memory>
 
 class Game {
 public:
