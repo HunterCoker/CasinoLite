@@ -1,12 +1,9 @@
 #pragma once
 
-#include <SDL.h>
+#include <GLFW/glfw3.h>
 
 class Input {
 public:
-    static void SetKeyUp(SDL_Keycode code);
-    static void SetKeyDown(SDL_Keycode code);
-
-    static bool KeyUp(SDL_Keycode code);
-    static bool KeyDown(SDL_Keycode code);
+    static bool KeyUp(int code);
+    static bool KeyDown(int code);
 };

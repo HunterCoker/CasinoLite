@@ -5,24 +5,36 @@
 
 #include <iostream>
 
+static void glfw_error_callback(int error, const char* description);
+static void framebuffer_resize_callback(GLFWwindow* window, int width, int height);
+
 Application* Application::pInstance_s = nullptr;
-SDL_Window* Application::pWindow_s = nullptr;
+GLFWwindow* Application::pWindow_s = nullptr;
 Game* Application::pActiveGame_s = nullptr;
 
 Application::Application() {
-    if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
-        std::cout << "SDL_Init error: " << SDL_GetError() << std::endl;
+    glfwInit();
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+
+    pWindow_s = glfwCreateWindow(800, 500, "CasinoLite", nullptr, nullptr);
+    if (!pWindow_s) {
+        std::cerr << "glfwCreateWindow error: could not create window" << std::endl;
+        std::exit(-1);
+    }
+    glfwMakeContextCurrent(pWindow_s);
+    glfwSetFramebufferSizeCallback(pWindow_s, framebuffer_resize_callback);
+    glfwSwapInterval(0);
+
+    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
+        std::cerr << "gladLoadGLLoader error: could not load OpenGL" << std::endl;
         std::exit(-1);
     }
 
-    uint32_t flags = 0;
-    pWindow_s = SDL_CreateWindow("CasinoLite", 800, 500, flags);
-    if (!pWindow_s) {
-        std::cout << "SDL_CreateWindow error: " << SDL_GetError() << std::endl;
-        std::exit(-1);
-    }
-    SDL_SetWindowPosition(pWindow_s, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED);
-    SDL_ShowWindow(pWindow_s);
+    // glEnable(GL_DEPTH_TEST);
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
     Renderer::Init();
     Games::pMainMenu_g->Init();
@@ -32,32 +44,25 @@ Application::Application() {
 }
 
 void Application::Run() {
-    SDL_Event event;
-    bool running = true;
 
-    while (running) {
-        while (SDL_PollEvent(&event)) {
-            switch (event.type) {
-                case SDL_EVENT_QUIT:
-                    running = false;
-                    break;
-                case SDL_EVENT_KEY_DOWN:
-                    Input::SetKeyDown(event.key.keysym.sym);
-                    break;
-                case SDL_EVENT_KEY_UP:
-                    Input::SetKeyUp(event.key.keysym.sym);
-                    break;
-                default:
-                    // Unhandled Event
-                    break;
-            }
-        }
+    while (!glfwWindowShouldClose(pWindow_s)) {
+        glfwPollEvents();
+        glfwSwapBuffers(pWindow_s);
 
         pActiveGame_s->Update();
     }
 
     Games::pMainMenu_g->Terminate();
     Games::pSlots_g->Terminate();
-    SDL_DestroyWindow(pWindow_s);
-    SDL_Quit();
+    glfwDestroyWindow(pWindow_s);
+    glfwTerminate();
+}
+
+
+static void glfw_error_callback(int error, const char* description) {
+    fprintf(stderr, "GLFW Error %d: %s\n", error, description);
+}
+
+void framebuffer_resize_callback(GLFWwindow* window, int width, int height) {
+    glViewport(0, 0, width, height);
 }

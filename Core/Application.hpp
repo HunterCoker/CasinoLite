@@ -1,6 +1,7 @@
 #pragma once
 
-#include <SDL.h>
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 
 #include "Game.hpp"
 
@@ -10,18 +11,17 @@ public:
     ~Application() = default;
 
     static Application* Get() {
-        if (!pInstance_s) {
+        if (!pInstance_s)
             pInstance_s = new Application();
-        }
         return pInstance_s;
     }
 
     static void Run();
 
-    static const SDL_Window* GetWindow() { return pWindow_s; };
+    static const GLFWwindow* GetWindow() { return pWindow_s; };
     static void SetActiveGame(Game* game) { pActiveGame_s = game; }
 private:
-    static SDL_Window* pWindow_s;
+    static GLFWwindow* pWindow_s;
     static Game* pActiveGame_s;
 private:
     Application();
