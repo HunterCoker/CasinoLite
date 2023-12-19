@@ -11,7 +11,7 @@ struct BufferLayoutElement {
 
     static uint32_t getSizeOfType(GLenum type) {
         switch (type) {
-            case GL_FLOAT:          return 4;
+            case GL_FLOAT:
             case GL_UNSIGNED_INT:   return 4;
             default:                return 0;
         }
@@ -26,15 +26,15 @@ public:
     BufferLayout(const BufferLayout&) = delete;
     ~BufferLayout() = default;
 
-    [[nodiscard]] GLsizei getStride() const { return stride_; }
-    [[nodiscard]] const std::vector<BufferLayoutElement>& getElements() const { return elements_; }
+    GLsizei getStride() const { return stride_; }
+    const std::vector<BufferLayoutElement>& getElements() const { return elements_; }
 
-    void pushFloat(int32_t count) {
+    void PushFloat(int32_t count) {
         elements_.push_back({ count, GL_FLOAT, GL_FALSE });
         stride_ += count * BufferLayoutElement::getSizeOfType(GL_FLOAT);
     }
 
-    void pushUInt(int32_t count) {
+    void PushUInt(int32_t count) {
         elements_.push_back({ count, GL_UNSIGNED_INT, GL_FALSE });
         stride_ += count * BufferLayoutElement::getSizeOfType(GL_UNSIGNED_INT);
     }
@@ -67,7 +67,7 @@ public:
     void Bind() const { glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, handle_); }
     void Unbind() const { glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0); }
 
-    [[nodiscard]] GLsizei GetCount() const { return count_; }
+    GLsizei GetCount() const { return count_; }
 
     void BufferData(GLsizeiptr size, const void* data);
 private:

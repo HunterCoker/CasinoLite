@@ -13,8 +13,9 @@ Shader::Shader(const std::string& vertex_path, const std::string& fragment_path)
 	try {
 		vertex_file.open(vertex_path);
 		vertex_stream << vertex_file.rdbuf();
+        vertex_file.close();
 	}
-	catch(std::ifstream::failure e) {
+	catch(std::ifstream::failure& e) {
 		std::cerr << "error: failed to read vertex Shader file\n";
 	}
 
@@ -24,8 +25,9 @@ Shader::Shader(const std::string& vertex_path, const std::string& fragment_path)
 	try {
 		fragment_file.open(fragment_path);
 		fragment_stream << fragment_file.rdbuf();
+        fragment_file.close();
 	}
-	catch(std::ifstream::failure e) {
+	catch(std::ifstream::failure& e) {
 		std::cerr << "error: failed to read fragment Shader file\n";
 	}
 
@@ -45,13 +47,13 @@ Shader::Shader(const std::string& vertex_path, const std::string& fragment_path)
 	char infoLog[512];
 	glGetShaderiv(vertex_shader, GL_COMPILE_STATUS, &success);
 	if(!success) {
-		glGetShaderInfoLog(vertex_shader, 512, NULL, infoLog);
+		glGetShaderInfoLog(vertex_shader, 512, nullptr, infoLog);
 		std::cerr << "error: vertex Shader failed to compile!\n" << infoLog << '\n';
 	}
 
 	glGetShaderiv(fragment_shader, GL_COMPILE_STATUS, &success);
 	if(!success) {
-		glGetShaderInfoLog(vertex_shader, 512, NULL, infoLog);
+		glGetShaderInfoLog(fragment_shader, 512, nullptr, infoLog);
 		std::cerr << "error: fragment Shader failed to compile!" << infoLog << '\n';
 	}
 
@@ -62,7 +64,7 @@ Shader::Shader(const std::string& vertex_path, const std::string& fragment_path)
 
 	glGetShaderiv(program_, GL_LINK_STATUS, &success);
 	if(!success) {
-		glGetShaderInfoLog(program_, 512, NULL, infoLog);
+		glGetShaderInfoLog(program_, 512, nullptr, infoLog);
 		std::cerr << "error: fragment Shader failed to compile!" << infoLog << '\n';
 	}
 
@@ -74,6 +76,10 @@ Shader::~Shader() {
 	glDeleteProgram(program_);
 }
 
+Ref<Shader> Shader::Create(const std::string& vert_filepath, const std::string& frag_filepath) {
+    return std::make_shared<Shader>(vert_filepath, frag_filepath);
+}
+
 void Shader::Bind() {
 	glUseProgram(program_);
 }
@@ -82,14 +88,18 @@ void Shader::Unbind() {
     glUseProgram(0);
 }
 
-void Shader::SetUniform1f(const std::string& name, float value) const {
+void Shader::SetUniformFloat(const std::string& name, float value) const {
 	glUniform1f(glGetUniformLocation(program_, name.c_str()), value);
 }
 
-void Shader::SetUniform3f(const std::string& name, float value[3]) const {
+void Shader::SetUniformFloat3(const std::string& name, float value[3]) const {
 	glUniform3f(glGetUniformLocation(program_, name.c_str()), value[0], value[1], value[2]);
 }
 
-void Shader::SetUniformm4fv(const std::string& name, const glm::mat4& value) const {
+void Shader::SetUniformIntArray(const std::string &name, GLsizei count, GLint* values) const {
+    glUniform1iv(glGetUniformLocation(program_, name.c_str()), count, values);
+}
+
+void Shader::SetUniformMat4(const std::string& name, const glm::mat4& value) const {
 	glUniformMatrix4fv(glGetUniformLocation(program_, name.c_str()), 1, GL_FALSE, glm::value_ptr(value));
 }

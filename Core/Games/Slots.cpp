@@ -1,29 +1,29 @@
-#include "../Application.hpp"
-#include "../../Renderer/Renderer.hpp"
+#include "Games.hpp"
 
-#include <iostream>
+#include "../../GUI/GUI.hpp"
 
 void Slots::Init() {
 
 }
 
-void Slots::Update() {
+void Slots::Update(float ts) {
     if (Input::KeyDown(GLFW_KEY_ESCAPE)) {
-        std::cout << "going to main menu\n";
-        Application::SetActiveGame(Games::pMainMenu_g);
+        this->Close();
         return;
     }
 
-    Renderer::ClearColor({0.0f, 0.0f, 0.0f, 1.0f});
+    Renderer::ClearColor({ 1.0f, 0.0f, 0.0f, 1.0f });
 
-    Renderer::BeginScene();
+    Renderer::BeginFrame();
     /* your code goes here */
 
 
     /* ------------------- */
-    Renderer::EndScene();
+    Renderer::EndFrame();
 }
 
 void Slots::Terminate() {
 
+
+    delete this;
 }

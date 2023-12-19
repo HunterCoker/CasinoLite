@@ -2,14 +2,15 @@
 
 #include <stb_image.h>
 
-Texture::Texture(const std::string& filepath) {
+Texture::Texture(const std::string& filepath)
+    :handle_(0) {
 	glGenTextures(1, &handle_);
 	glBindTexture(GL_TEXTURE_2D, handle_);
 	
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
 	
 	int width, height, nrChannels;
     stbi_set_flip_vertically_on_load(true);
@@ -25,11 +26,12 @@ Texture::~Texture() {
 	glDeleteTextures(1, &handle_);
 }
 
-std::shared_ptr<Texture> Texture::Create(const std::string& filepath) {
+Ref<Texture> Texture::Create(const std::string& filepath) {
     return std::make_shared<Texture>(filepath);
 }
 
 void Texture::Bind(uint32_t slot) const {
+    glActiveTexture(GL_TEXTURE0 + slot);
 	glBindTexture(GL_TEXTURE_2D, handle_);
 }
 

@@ -3,7 +3,7 @@
 int main() {
     auto app = Application::Get();
     app->Run();
-    delete app;
+    // delete app; // figure out why this is causing a segfault
 
     return 0;
 }

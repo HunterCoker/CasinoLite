@@ -2,16 +2,17 @@
 
 #include <glad/glad.h>
 
+#include "../Core/Util.hpp"
+
 #include <string>
-#include <memory>
 
 class Texture {
 public:
-	Texture(const std::string& filepath);
+	explicit Texture(const std::string& filepath);
 	Texture(const Texture&) = delete;
 	~Texture();
 
-    static std::shared_ptr<Texture> Create(const std::string& filepath);
+    static Ref<Texture> Create(const std::string& filepath);
 
 	void Bind(uint32_t slot = 0) const;
 

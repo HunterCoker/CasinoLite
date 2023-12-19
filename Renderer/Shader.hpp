@@ -1,8 +1,9 @@
 #pragma once
 
 #include <glad/glad.h>
-
 #include <glm/mat4x4.hpp>
+
+#include "../Core/Util.hpp"
 
 #include <string>
 
@@ -12,12 +13,15 @@ public:
 	Shader(const Shader&) = delete;
 	~Shader();
 
+    static Ref<Shader> Create(const std::string& vert_filepath, const std::string& frag_filepath);
+
 	void Bind();
 	void Unbind();
 
-	void SetUniform1f(const std::string& name, float value) const;
-	void SetUniform3f(const std::string& name, float value[3]) const;
-	void SetUniformm4fv(const std::string& name, const glm::mat4& value) const;
+	void SetUniformFloat(const std::string& name, float value) const;
+	void SetUniformFloat3(const std::string& name, float value[3]) const;
+    void SetUniformIntArray(const std::string &name, GLsizei count, GLint* values) const;
+	void SetUniformMat4(const std::string& name, const glm::mat4& value) const;
 private:
 	GLuint program_;
 };

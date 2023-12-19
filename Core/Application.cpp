@@ -1,68 +1,91 @@
 #include "Application.hpp"
 
-#include "Input.hpp"
+#include "AccountManager.hpp"
 #include "../Renderer/Renderer.hpp"
+#include "../GUI/GUI.hpp"
+#include "GameManager.hpp"
 
 #include <iostream>
+#include <chrono>
 
-static void glfw_error_callback(int error, const char* description);
-static void framebuffer_resize_callback(GLFWwindow* window, int width, int height);
+double GetTime() {
+    using std::chrono::duration_cast;
+    using std::chrono::microseconds;
+    using std::chrono::system_clock;
+    auto micros_since_epoch = duration_cast<microseconds>(system_clock::now().time_since_epoch()).count();
+    return static_cast<double>(micros_since_epoch) * 0.001;
+}
+
+struct Stats {
+    double ms_per_frame = 0.0f;
+    double avg_fps = 0.0f;
+};
+
+static Stats s_stats;
 
 Application* Application::pInstance_s = nullptr;
-GLFWwindow* Application::pWindow_s = nullptr;
-Game* Application::pActiveGame_s = nullptr;
 
 Application::Application() {
-    glfwInit();
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
-    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
-
-    pWindow_s = glfwCreateWindow(800, 500, "CasinoLite", nullptr, nullptr);
-    if (!pWindow_s) {
-        std::cerr << "glfwCreateWindow error: could not create window" << std::endl;
-        std::exit(-1);
-    }
-    glfwMakeContextCurrent(pWindow_s);
-    glfwSetFramebufferSizeCallback(pWindow_s, framebuffer_resize_callback);
-    glfwSwapInterval(0);
-
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
         std::cerr << "gladLoadGLLoader error: could not load OpenGL" << std::endl;
         std::exit(-1);
     }
-
-    // glEnable(GL_DEPTH_TEST);
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
-    Renderer::Init();
-    Games::pMainMenu_g->Init();
-    Games::pSlots_g->Init();
+    //
+    AccountManager::Init();
 
-    pActiveGame_s = Games::pMainMenu_g;
+    // Generates vertex buffers and shaders needed to draw primitives
+    Renderer::Init();
+
+    // initializes all of the assets needed for GUI components
+    GUI::Init();
+
+    // Initializes the main menu
+    GameManager::Init();
 }
 
 void Application::Run() {
+    float ts = 0;
+    double start = GetTime(), end = 0;
 
-    while (!glfwWindowShouldClose(pWindow_s)) {
-        glfwPollEvents();
-        glfwSwapBuffers(pWindow_s);
+    while (!window_.ShouldClose()) {
+        window_.Update();
 
-        pActiveGame_s->Update();
+        end = GetTime();
+        s_stats.ms_per_frame = end - start;
+        ts = static_cast<float>(s_stats.ms_per_frame);
+        start = end;
+
+        // calculate performance stats
+        static double timer = 1000.0, ts_acc = 0.0;
+        static uint32_t frame_count = 0;
+        if ((timer -= s_stats.ms_per_frame) <= 0.0f) {
+            s_stats.avg_fps = 1000.0 / (ts_acc / frame_count);
+            timer = 1000.0;
+            ts_acc = frame_count = 0;
+            // std::cout << s_stats.avg_fps << " frames/sec" << '\n';
+        }
+        ts_acc += ts;
+        ++frame_count;
+
+        Renderer::Update(window_.GetWidth(), window_.GetHeight());
+        GUI::Update();
+        GameManager::Update();
+
+        auto game = GameManager::ActiveGame();
+        game->Update(ts * 0.001f);
+
     }
 
-    Games::pMainMenu_g->Terminate();
-    Games::pSlots_g->Terminate();
-    glfwDestroyWindow(pWindow_s);
-    glfwTerminate();
+    AccountManager::Terminate();
+
+    // flushes all buffers and frees all allocated memory
+    Renderer::Terminate();
+
+    // closes game safely
+    GameManager::Terminate();
+
 }
 
-
-static void glfw_error_callback(int error, const char* description) {
-    fprintf(stderr, "GLFW Error %d: %s\n", error, description);
-}
-
-void framebuffer_resize_callback(GLFWwindow* window, int width, int height) {
-    glViewport(0, 0, width, height);
-}
